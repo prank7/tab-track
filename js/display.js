@@ -22,6 +22,7 @@ $(function(){
 	$('.quote').html(quotes[quoteNumber]);
 });
 
+//append option of input if clicked on icon
 $('#goal-pad').click(function(){
 	$('#writepad').html("<input type='text' placeholder='please put a measurable goal'>");
 });
