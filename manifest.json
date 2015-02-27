@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "ScreenTheft",
+	"description": "ScreenTheft shows an energising pic, motivational quote. It also has a writepad, that you can use to store your ideas on go. It has Pomodoro and reminder fearure as well.",
+  "version": "1.0",	
+
+  "browser_action": {
+  	"default_icon": "icon.png"
+  },
+
+  "chrome_url_overrides": { "newtab": "background.html" },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
+
